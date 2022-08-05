@@ -19,3 +19,4 @@ Pesquisas:
 
 
 https://www.youtube.com/watch?v=O7gEsxeLHAo&list=PLHz_AreHm4dlLcV0H86FKT1NVVkY71Q4Y&index=8
+https://stackoverflow.com/questions/57504122/browser-denying-javascript-play

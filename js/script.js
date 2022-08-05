@@ -1,3 +1,5 @@
+
+console.log(musica)
 console.clear();
 
 const { gsap, imagesLoaded } = window;
@@ -177,7 +179,7 @@ function removeCardEvents(card) {
 }
 
 function init() {
-
+	(document.getElementById("musica")).play();
 	let tl = gsap.timeline();
 
 	tl.to(cardsContainerEl.children, {
@@ -251,5 +253,11 @@ const waitForImages = () => {
 		});
 	});
 };
+
+function load() {
+	(document.getElementById("musica")).play();
+	console.log("musica");
+  }
+  window.onload = load;
 
 waitForImages();
